@@ -12,13 +12,29 @@ body {
     border-bottom: 1px solid rgb(176, 176, 176);
 }
 
+.phone-three-section {
+    width: 32px;
+    height: 35.31px;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+}
+
+
+.zuraas {
+    width: 32px;
+    height: 2.44px;
+    border-radius: 8px;
+    background-color: #E84949;
+
+}
+
 .header-container {
-    width: 100%;
+    width: 1238px;
     height: 83px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -32,8 +48,10 @@ body {
     display: flex;
     font-size: 18px;
     font-weight: 400;
+    display: block;
     display: flex;
     justify-content: space-between;
+
 }
 
 .text-project {
@@ -45,6 +63,9 @@ body {
 
 .main {
     padding-inline: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .first-big-container {
@@ -113,7 +134,11 @@ body {
     border: 0;
     color: white;
 }
-
+.Hire-me:hover{
+    background-color: orange;
+    width: 105px;
+    transition: 1s;
+}
 .second-big-container {
     width: 100%;
     height: 473px;
@@ -217,7 +242,6 @@ body {
     align-items: center;
     background-color: #262C4D;
     border: 4px solid linear-gradient(302.35deg, #0D54BE 4.37%, #20ECD3 95.31%);
-    ;
 }
 
 .images {
@@ -250,6 +274,19 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+.buttonn:hover{
+    transform: scale(1.1);
+}
+.three-section:hover{
+    width: 381px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262C4D;
+    border: 1px solid #231de9;
+}
 
 .arrow {
     width: 20px;
@@ -260,9 +297,9 @@ body {
     width: 100%;
     height: 615px;
     box-sizing: border-box;
-   padding-inline: 7%;
-   padding-top: 74px;
-   padding-bottom: 70px;
+    padding-inline: 7%;
+    padding-top: 74px;
+    padding-bottom: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -294,7 +331,8 @@ body {
     width: 563px;
     height: 412px;
 }
-.form{
+
+.form {
     width: 613px;
     height: 347px;
     display: flex;
@@ -302,7 +340,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.input1{
+
+.input1 {
     width: 100%;
     height: 53px;
     border-radius: 4px;
@@ -317,7 +356,8 @@ body {
     display: flex;
     align-items: center;
 }
-.input2{
+
+.input2 {
     width: 100%;
     height: 158px;
     border-radius: 4px;
@@ -330,14 +370,16 @@ body {
     color: #838383;
     background-color: #FFFFFF;
     display: flex;
-box-sizing: border-box;
-padding-top: 11px;
+    box-sizing: border-box;
+    padding-top: 11px;
 }
-.papaer-plane{
+
+.papaer-plane {
     width: 21.47px;
     height: 24px;
 }
-.send-massage{
+
+.send-massage {
     width: 213.47px;
     height: 50px;
     background-color: #343D68;
@@ -349,17 +391,19 @@ padding-top: 11px;
     border: 0;
     border-radius: 4px;
 }
-.savage-big-container{
+
+.savage-big-container {
     width: 100%;
     height: 444px;
     background-color: #262C4D;
-    border-top: 180deg ;
+    border-top: 180deg;
     padding-inline: 7%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer{
+
+.footer {
     width: 1240px;
     height: 93px;
     padding-left: 110px;
@@ -368,7 +412,8 @@ padding-top: 11px;
     justify-content: space-between;
     align-items: center;
 }
-.media-links{
+
+.media-links {
     width: 315px;
     height: 93px;
     font-size: 20px;
@@ -380,25 +425,29 @@ padding-top: 11px;
     flex-direction: column;
     justify-content: space-between;
 }
-.logo-links{
+
+.logo-links {
     width: 315px;
     height: 30px;
     display: flex;
     justify-content: space-between;
 
 }
-.logos{
+
+.logos {
     width: 30px;
     height: 30px;
 }
-.github{
-width: 270px;
-height: 78px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+
+.github {
+    width: 270px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.more-project{
+
+.more-project {
     width: 270px;
     height: 29px;
     font-size: 19px;
@@ -407,7 +456,8 @@ justify-content: space-between;
     font-family: "Be Vietnam Pro", sans-serif;
     color: white;
 }
-.last{
+
+.last {
     width: 237px;
     height: 30px;
     gap: 22px;
@@ -419,7 +469,292 @@ justify-content: space-between;
     font-family: "Be Vietnam Pro", sans-serif;
     color: white;
 }
-.githublogo{
+
+.githublogo {
     width: 30px;
     height: 30px;
+}
+
+.imagemabro {
+    width: 411px;
+    height: 495px;
+}
+
+.four-one2 {
+    width: 121px;
+    height: 108px;
+}
+
+.four-one {
+    width: 75px;
+    height: 108px;
+}
+
+.four-logo {
+    width: 518px;
+    height: 111.16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.standingman {
+    width: 511px;
+    height: 414px;
+}
+
+@media (min-width: 360px) and (max-width: 1440px) {
+    .header-container {
+        width: 360px;
+        height: 72px
+    }
+
+    .logo22 {
+        display: none;
+    }
+
+    .text-slills {
+        display: none;
+    }
+
+    .text-project {
+        display: none;
+
+    }
+
+    .text-contactme {
+        display: none;
+    }
+
+    .phone-three-section {
+        display: flex;
+        width: 32px;
+        height: 35.31px;
+    }
+
+    .SPC-container {
+        display: none;
+    }
+
+    .imagemabro {
+        width: 257px;
+        height: 294.74px;
+    }
+
+    .first-big-text1 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #343D68;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-big-text2 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 37.63px;
+        color: #343D68;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .first-big-text3 {
+        width: 298px;
+        height: 138px;
+        font-size: 18px;
+        line-height: 26.3px;
+        color: #343D68;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .Hire-me {
+        width: 114px;
+        height: 46px;
+        border-radius: 4px;
+        background-color: #E84949;
+        border: 0;
+        color: white;
+    }
+
+    .first-big-text {
+        width: 298px;
+        height: 265px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .first-big-container {
+        width: 360px;
+        height: 570px;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+    }
+    .standingman {
+        width: 250px;
+        height: 186px;
+
+    }
+    .codings-text {
+        height: 400.16px;
+        width: 293px;
+        color: #818080;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26.3px;
+        font-family: "Be Vietnam Pro", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .codings {
+        width: 360px;
+        height: 600px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .four-one2 {
+        width: 121px;
+        height: 108px;
+    }
+    
+    .four-one {
+        width: 75px;
+        height: 108px;
+    }
+    
+    .four-logo {
+        width: 250px;
+        height: 400.16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .second-big-container {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+    }
+    .images {
+        width: 265px;
+        height: 165px;
+    }
+    .three-links {
+        width: 266px;
+        height: 1125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    
+    .three-section {
+        width: 265px;
+        height: 327px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #262C4D;
+        border: 4px solid linear-gradient(302.35deg, #0D54BE 4.37%, #20ECD3 95.31%);
+    
+    }
+    .second-main {
+        width: 100%;
+        height: 1220px;
+        background-color: #343D68;
+        padding-inline: 7%;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .standing-man {
+        width: 250px;
+        height: 186px;
+    }
+    
+    .form {
+        width: 313px;
+        height: 347px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .man-stading-text {
+        width: 313px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .manaic-main {
+        width: 100%;
+        height: 700px;
+        box-sizing: border-box;
+        padding-inline: 7%;
+        padding-top: 54px;
+        padding-bottom: 37px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        background-color: #f1efef;
+    }
+    .footer {
+        width: 292px;
+        height: 198px;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .more-project {
+        width: 242px;
+        height: 26px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: "Be Vietnam Pro", sans-serif;
+        color: white;
+    }
+    .logo-links {
+        width: 292px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .media-links {
+        width: 292px;
+        height: 68px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: "Be Vietnam Pro", sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
