@@ -40,6 +40,7 @@ body {
 .logo {
     width: 90px;
     height: 35px;
+    object-fit: cover;
 }
 
 .SPC-container {
@@ -201,7 +202,7 @@ body {
     line-height: 29.22px;
     font-family: "Be Vietnam Pro", sans-serif;
     gap: 16px;
-    width: 120.4px;
+    width: 129.4px;
     height: 29px;
     display: flex;
     align-items: center;
@@ -458,7 +459,7 @@ body {
 }
 
 .last {
-    width: 237px;
+    width: 260px;
     height: 30px;
     gap: 22px;
     display: flex;
@@ -478,16 +479,19 @@ body {
 .imagemabro {
     width: 411px;
     height: 495px;
+    object-fit: cover;
 }
 
 .four-one2 {
     width: 121px;
     height: 108px;
+    object-fit: cover;
 }
 
 .four-one {
-    width: 75px;
+    width: 80px;
     height: 108px;
+    
 }
 
 .four-logo {
@@ -500,6 +504,7 @@ body {
 .standingman {
     width: 511px;
     height: 414px;
+   
 }
 
 @media (min-width: 360px) and (max-width: 1440px) {
@@ -630,7 +635,7 @@ body {
     }
     
     .four-one {
-        width: 75px;
+        width: 120px;
         height: 108px;
     }
     
@@ -673,6 +678,16 @@ body {
         background-color: #262C4D;
         border: 4px solid linear-gradient(302.35deg, #0D54BE 4.37%, #20ECD3 95.31%);
     
+    }
+    .three-section:hover{
+        width: 265px;
+        height: 327px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #262C4D;
+        border: 1px solid #231de9;
     }
     .second-main {
         width: 100%;
