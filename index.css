@@ -54,13 +54,32 @@ body {
     justify-content: space-between;
 
 }
+.lol{
+    width: 120px;
+    height: 50px;
+    background-color: #E84949;
+    display: none;
+    position: absolute;
+    left: 4px;
+   
+}
 
 .text-project {
     gap: 5px;
     color: #E84949;
     display: flex;
     align-items: start;
+    position: relative;
 }
+
+.text-slills{
+position: relative;
+}
+
+.text-slills:hover .lol{
+    display: flex;
+}
+
 
 .main {
     padding-inline: 7%;
@@ -134,11 +153,22 @@ body {
     background-color: #E84949;
     border: 0;
     color: white;
+    position: relative;
+}
+.love{
+    position: absolute;
+    right: -250px;
+    top: 15px;
+    color: pink;
+    display: none;
 }
 .Hire-me:hover{
     background-color: orange;
     width: 105px;
     transition: 1s;
+}
+.Hire-me:hover .love{
+   display: flex;
 }
 .second-big-container {
     width: 100%;
@@ -402,6 +432,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.send-massage:hover .papaer-plane{
+transform: translateX(20px);
+opacity: 0;
+transition: 2s;
+}
+.send-massage:hover{
+    transform: scale(1.05);
+    transition: 1s;
 }
 
 .footer {
